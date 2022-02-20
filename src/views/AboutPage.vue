@@ -10,10 +10,10 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col cols="6">
+      <v-col cols="12" sm="6" class="text-center">
         <v-img src="@/assets/vue.png" class="content-image rounded-circle"/>
       </v-col>
-      <v-col cols="6" class="content-text text-body-1">
+      <v-col cols="12" sm="6" class="content-text text-body-1">
         This Website is a Vue.js (Vue 3) based Single Page Application (in PWA mode) written in TypeScript. 
         <br><br> 
         Additionally Vuetifys Material Design Components are powering the looks of this page. 
@@ -27,7 +27,7 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col cols="6" class="content-text text-body-1">
+      <v-col cols="12" md="6" class="content-text text-body-1">
         The future Rotfuks Pages Stack will then be:
         <ul>
           <li>TypeScript as main Language</li>
@@ -40,7 +40,7 @@
           <li>And sure some things more along the way :)</li>
         </ul>
       </v-col>
-      <v-col cols="6">
+      <v-col cols="12" md="6" class="text-center">
         <v-img src="@/assets/project.jpg" class="content-image rounded-lg"/>
       </v-col>
     </v-row>

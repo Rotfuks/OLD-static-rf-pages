@@ -11,10 +11,10 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col cols="6">
+        <v-col cols="12" md="6" class="text-center">
           <img src="@/assets/graphql.jpg" class="content-image rounded-lg"/>
         </v-col>
-        <v-col cols="6" class="content-text text-body-1">
+        <v-col cols="12" md="6" class="content-text text-body-1">
           Hey there!
           <br><br>
           This is a short insight into things I did in the past. 
@@ -47,7 +47,7 @@
               :key="item.title"
             >
               <v-list-item-content>
-                <v-list-item-title v-html="item.title"></v-list-item-title>
+                <div class="text-primary" v-html="item.title"></div>
                 <div v-html="item.subtitle"></div>
               </v-list-item-content>
             </v-list-item>
@@ -128,7 +128,8 @@ export default class AboutMe extends Vue {
 
 <style scoped>
 .content-image {
-  max-height: 400px;
+  max-height: 300px;
+  max-width: 90vw;
 }
 .content-text {
   margin: auto;

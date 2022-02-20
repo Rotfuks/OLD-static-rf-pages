@@ -11,10 +11,10 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col cols="6">
+        <v-col cols="12" lg="6" class="text-center">
           <img src="@/assets/me.jpg" class="content-image rounded-lg"/>
         </v-col>
-        <v-col cols="6" class="content-text text-body-1">
+        <v-col cols="12" lg="6" class="content-text text-body-1">
           Hey there! 
           <br><br>
           My name is Dominik. <br>
@@ -25,32 +25,34 @@
         </v-col>
       </v-row>
       <v-row> 
-        <v-list>
-          <template v-for="(item, index) in items">
-            <v-subheader
-              class="text-h5"
-              v-if="item.header"
-              :key="item.header"
-              v-text="item.header"
-            ></v-subheader>
+        <v-col>
+          <v-list>
+            <template v-for="(item, index) in items">
+              <v-subheader
+                class="text-h5"
+                v-if="item.header"
+                :key="item.header"
+                v-text="item.header"
+              ></v-subheader>
 
-            <v-divider
-              v-else-if="item.divider"
-              :key="index"
-              :inset="item.inset"
-            ></v-divider>
+              <v-divider
+                v-else-if="item.divider"
+                :key="index"
+                :inset="item.inset"
+              ></v-divider>
 
-            <v-list-item
-              v-else
-              :key="item.title"
-            >
-              <v-list-item-content>
-                <v-list-item-title v-html="item.title"></v-list-item-title>
-                <div v-html="item.subtitle"></div>
-              </v-list-item-content>
-            </v-list-item>
-          </template>
-        </v-list>
+              <v-list-item
+                v-else
+                :key="item.title"
+              >
+                <v-list-item-content>
+                  <div class="text-primary" v-html="item.title"></div>
+                  <div v-html="item.subtitle"></div>
+                </v-list-item-content>
+              </v-list-item>
+            </template>
+          </v-list>
+        </v-col>
       </v-row>
     </v-container>
   </div>
@@ -176,8 +178,8 @@ export default class AboutMe extends Vue {
 
 <style scoped>
 .content-image {
-  max-width: 400px;
   max-height: 400px;
+  max-width: 400px;
 }
 .content-text {
   margin: auto;
