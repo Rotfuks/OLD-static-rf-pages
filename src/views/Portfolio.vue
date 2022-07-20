@@ -72,6 +72,28 @@ export default class AboutMe extends Vue {
           subtitle: `2020, dpunkt.verlag, <a href="https://dpunkt.de/produkt/graphql/">get it here</a>.`,
         },
         {
+          title: '<b>Einstieg in GitHub Actions</b> - 3 part tutorial series on CI/CD with GitHub Actions',
+          subtitle: `Part 1, Einstieg in GitHub Actions: 2022, iX Ausgabe 7.2022, <a href="https://shop.heise.de/ix-07-2022/Print">read it here</a>.
+                    <br/>Part 2, GitHub Actions und Container-Registries: 2022, iX Ausgabe 8.2022. <a href="https://shop.heise.de/ix-08-2022/Print">read it here</a>`,
+        },
+        {
+          title: '<b>Die Cloud hat viele Gesichter</b> - Cloud Foundry: Eine Open-Source-Cloud-Plattfrom als einfache Alternative zu Kubernetes',
+          subtitle: `2022, JavaMagazin Ausgabe 2.2022, <a href="https://entwickler.de/magazine-ebooks/java-magazin/java-magazin-22022">read it here</a>.
+                    <br/>2022, Windows.developer Magazin Ausgabe 4.2022. <a href="https://entwickler.de/magazine-ebooks/windows-developer/windows-developer-42022">read it here</a>`,
+        },
+        {
+          title: '<b>Einstieg in GitHub Actions</b> - Ein Tutorial zu CI/CD Automation mit GitHub Actions',
+          subtitle: `2022, iX Magazin Ausgabe 07/2022, <a href="https://shop.heise.de/ix-07-2022/Print">read it here</a>.`,
+        },
+        {
+          title: '<b>The Future of Cloud is Abstraction</b>',
+          subtitle: `2022, SIT Techblog Article, <a href="https://techblog.schwarz/posts/the-future-of-the-cloud-is-abstraction/">read it here</a>.`,
+        },
+        {
+          title: '<b>Vom Entwickler zum Produkt Owner</b> - Der Produktwerker Podcast',
+          subtitle: `2021, Quest on the Product Werker Podcast, <a href="https://produktwerker.de/vom-entwickler-zum-produkt-owner/">listen to it here</a>.`,
+        },
+        {
           title: '<b>GraphQL als API-Gateway – Teil 1: Grundlagen, Theorie, Design</b>“',
           subtitle: `2021, heise.de, <a href="https://www.heise.de/hintergrund/GraphQL-als-API-Gateway-Teil-1-Grundlagen-Theorie-Design-6049124.html">read it here</a>.`,
         },
@@ -80,23 +102,16 @@ export default class AboutMe extends Vue {
           subtitle: `2021, heise.de, <a href="https://www.heise.de/hintergrund/GraphQL-als-API-Gateway-Teil-2-Technische-Beispielimplementierung-6063845.html">read it here</a>.`,
         },
         {
-          title: '<b>Die Cloud hat viele Gesichter</b> - Cloud Foundry: Eine Open-Source-Cloud-Plattfrom als einfache Alternative zu Kubernetes',
-          subtitle: `2022, JavaMagazin Ausgabe 2.2022, <a href="https://entwickler.de/magazine-ebooks/java-magazin/java-magazin-22022">read it here</a>.`,
-        },
-        {
-          title: '<b>Vom Entwickler zum Produkt Owner</b> - Der Produktwerker Podcast',
-          subtitle: `2021, Quest on the Product Werker Podcast, <a href="https://produktwerker.de/vom-entwickler-zum-produkt-owner/">listen to it here</a>.`,
-        },
-        {
-          title: 'Why do so many companies have a hard time getting new IT Specialists?',
+          title: '<b>Why do so many companies have a hard time getting new IT Specialists?</b>',
           subtitle: `2021, Medium Blog Article, <a href="https://rotfuks.medium.com/why-do-so-many-companies-have-a-hard-time-getting-new-it-specialists-31af77e8622">read it here</a>.`,
         },
         { divider: true, inset: true },
         { header: "Events / Talks" },
         { divider: true, inset: true },
         {
-          title: 'Micro Frontends: When Microservices are not enough',
-          subtitle: `2018, WJAX, <a href="https://jax.de/speaker/dominik-kress/">find out more here</a>.`,
+          title: 'The Future of Cloud is Abstraction - Why Kubernetes is not the Endgame for STACKIT',
+          subtitle: `2022, DevOpsCon Berlin, <a href="https://devopscon.io/cloud-platforms-serverless/the-future-of-cloud-is-abstraction-why-kubernetes-is-not-the-endgame-for-stackit/">find out more here</a>.
+                    <br/>2022, WeAreDevelopers Berlin, <a href="https://www.youtube.com/watch?v=5Lp5CPG4GlA">find the talk here</a>`,
         },
         {
           title: 'CD2CF – Continuous Deployment to Cloud Foundry',
@@ -109,6 +124,10 @@ export default class AboutMe extends Vue {
         {
           title: 'GraphQL as an API Gateway',
           subtitle: `2021, GraphQL Berlin Meetup #24, <a href="https://www.youtube.com/watch?v=8Udo0pV470M">watch it here</a>.`,
+        },
+        {
+          title: 'Micro Frontends: When Microservices are not enough',
+          subtitle: `2018, WJAX, <a href="https://jax.de/speaker/dominik-kress/">find out more here</a>.`,
         },
         {
           title: 'Vue.js mit TypeScript',
