@@ -64,29 +64,17 @@ import { Component, Vue } from 'vue-property-decorator'
 @Component({})
 export default class AboutMe extends Vue {
    items = [
-        { header: 'Education' },
-        {
-          title: '2017 <b>Bachelor of Science – Software Engineering</b>',
-          subtitle: `Thesis Title: Grundlagen der API - Von der Konzeption bis zur technischen Umsetzung und Wartung
-          <br/>API Fundamentals – from conception to technical implementation and maintenance
-          <br/><b>Heilbronn University</b>`,
-        },
-        { divider: true, inset: true },
-        {
-          title: '2014 – 2017 <b>Software Engineering</b>',
-          subtitle: `<b>Heilbronn University</b>`,
-        },
-        { divider: true, inset: true }
-        ,
-        {
-          title: '2011 – 2014 <b>Medical Informatics</b>',
-          subtitle: `<b>Heilbronn University/Ruprecht-Karls-University Heidelberg</b>`,
-        },
         { header: 'Practical Experience' },
         {
-          title: 'Since 02/2021 <b>Technical Product Owner STACKIT AppCloud</b>',
+          title: 'since 10/2022 <b>Product Owner</b>',
+          subtitle: `<i>Giant Swarm</i>
+          <br>As Product Owner I am responsible for helping Giant Swarm become one of the best Platform Teams
+          with the best and most convenient Infrastructure Platform you can buy for money.`,
+        },
+        {
+          title: '02/2021 - 09/2022 <b>Technical Product Owner STACKIT AppCloud</b>',
           subtitle: `<i>Schwarz IT KG</i>
-          <br>As Technical Product Owner I am responsible for the STACKIT AppCloud – a Cloud Foundry 
+          <br>As Technical Product Owner I was responsible for the STACKIT AppCloud – a Cloud Foundry 
           based Application Runtime in Schwarz ITs Cloud Initiative. Getting into the technical
           intricacies of this highly complex platform and having just a small team of Engineers, but a
           lot of toil and technical debt, as well as helping to introduce structured agile processes and a
@@ -142,6 +130,24 @@ export default class AboutMe extends Vue {
         {
           title: '2012 – 2015 Working Student as Teamlead – Cinemaxx Heilbronn (Cinema)',
           subtitle: ``,
+        },
+        { header: 'Education' },
+        {
+          title: '2017 <b>Bachelor of Science – Software Engineering</b>',
+          subtitle: `Thesis Title: Grundlagen der API - Von der Konzeption bis zur technischen Umsetzung und Wartung
+          <br/>API Fundamentals – from conception to technical implementation and maintenance
+          <br/><b>Heilbronn University</b>`,
+        },
+        { divider: true, inset: true },
+        {
+          title: '2014 – 2017 <b>Software Engineering</b>',
+          subtitle: `<b>Heilbronn University</b>`,
+        },
+        { divider: true, inset: true }
+        ,
+        {
+          title: '2011 – 2014 <b>Medical Informatics</b>',
+          subtitle: `<b>Heilbronn University/Ruprecht-Karls-University Heidelberg</b>`,
         },
         { header: 'Other' },
         {

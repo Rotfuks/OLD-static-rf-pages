@@ -73,8 +73,12 @@ export default class AboutMe extends Vue {
         },
         {
           title: '<b>Einstieg in GitHub Actions</b> - 3 part tutorial series on CI/CD with GitHub Actions',
-          subtitle: `Part 1, Einstieg in GitHub Actions: 2022, iX Ausgabe 7.2022, <a href="https://shop.heise.de/ix-07-2022/Print">read it here</a>.
-                    <br/>Part 2, GitHub Actions und Container-Registries: 2022, iX Ausgabe 8.2022. <a href="https://shop.heise.de/ix-08-2022/Print">read it here</a>`,
+          subtitle: `Part 1, Einstieg in GitHub Actions: 2022, iX Ausgabe 7.2022, <a href="https://shop.heise.de/ix-07-2022/Print">get the magazine</a> 
+                          or <a href="https://www.heise.de/ratgeber/Softwareentwicklung-Einstieg-in-GitHub-Actions-7148260.html">on heise+</a>.
+                    <br/>Part 2, GitHub Actions und Container-Registries: 2022, iX Ausgabe 8.2022. <a href="https://shop.heise.de/ix-08-2022/Print">get the magazine</a> 
+                          or <a href="https://www.heise.de/ratgeber/Wie-Sie-Container-mit-GitHub-Actions-automatisiert-publizieren-7184373.html">on heise+</a>.
+                    <br/>Part 3, Cloud Deployment mit GitHub Actions: 2022, iX Ausgabe 9.2022. <a href="https://shop.heise.de/ix-09-2022/Print">get the magazine</a>
+                          or <a href="https://www.heise.de/ratgeber/So-funktioniert-Cloud-Deployment-mit-GitHub-Actions-7244444.html">on heise+</a>`,
         },
         {
           title: '<b>Die Cloud hat viele Gesichter</b> - Cloud Foundry: Eine Open-Source-Cloud-Plattfrom als einfache Alternative zu Kubernetes',
