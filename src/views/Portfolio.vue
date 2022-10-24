@@ -86,24 +86,17 @@ export default class AboutMe extends Vue {
                     <br/>2022, Windows.developer Magazin Ausgabe 4.2022. <a href="https://entwickler.de/magazine-ebooks/windows-developer/windows-developer-42022">read it here</a>`,
         },
         {
-          title: '<b>Einstieg in GitHub Actions</b> - Ein Tutorial zu CI/CD Automation mit GitHub Actions',
-          subtitle: `2022, iX Magazin Ausgabe 07/2022, <a href="https://shop.heise.de/ix-07-2022/Print">read it here</a>.`,
-        },
-        {
           title: '<b>The Future of Cloud is Abstraction</b>',
           subtitle: `2022, SIT Techblog Article, <a href="https://techblog.schwarz/posts/the-future-of-the-cloud-is-abstraction/">read it here</a>.`,
         },
         {
           title: '<b>Vom Entwickler zum Produkt Owner</b> - Der Produktwerker Podcast',
-          subtitle: `2021, Quest on the Product Werker Podcast, <a href="https://produktwerker.de/vom-entwickler-zum-produkt-owner/">listen to it here</a>.`,
+          subtitle: `2021, Guest on the Product Werker Podcast, <a href="https://produktwerker.de/vom-entwickler-zum-produkt-owner/">listen to it here</a>.`,
         },
         {
-          title: '<b>GraphQL als API-Gateway – Teil 1: Grundlagen, Theorie, Design</b>“',
-          subtitle: `2021, heise.de, <a href="https://www.heise.de/hintergrund/GraphQL-als-API-Gateway-Teil-1-Grundlagen-Theorie-Design-6049124.html">read it here</a>.`,
-        },
-        {
-          title: '<b>GraphQL als API-Gateway – Teil 2: Technische Beispielimplementierung</b>“',
-          subtitle: `2021, heise.de, <a href="https://www.heise.de/hintergrund/GraphQL-als-API-Gateway-Teil-2-Technische-Beispielimplementierung-6063845.html">read it here</a>.`,
+          title: '<b>GraphQL als API-Gateway</b> - 2 part tutorial series on API-Gateways with GraphQL“',
+          subtitle: `Part 1: Grundlagen, Theorie, Design. 2021, heise.de, <a href="https://www.heise.de/hintergrund/GraphQL-als-API-Gateway-Teil-1-Grundlagen-Theorie-Design-6049124.html">read it here</a>.
+                    <br/>Part 2: Technische Beispielimplementierung. 2021, heise.de, <a href="https://www.heise.de/hintergrund/GraphQL-als-API-Gateway-Teil-2-Technische-Beispielimplementierung-6063845.html">read it here</a>.`,
         },
         {
           title: '<b>Why do so many companies have a hard time getting new IT Specialists?</b>',
