@@ -66,8 +66,8 @@ export default class AboutMe extends Vue {
    items = [
         { header: 'Practical Experience' },
         {
-          title: 'since 10/2022 <b>Product Owner</b>',
-          subtitle: `<i>Giant Swarm</i>
+          title: 'since 10/2022 <b>Product Owner for Cluster API on Azure</b>',
+          subtitle: `<i>Giant Swarm GmbH</i>
           <br>As Product Owner I am responsible for helping Giant Swarm become one of the best Platform Teams
           with the best and most convenient Infrastructure Platform you can buy for money.`,
         },
