@@ -72,6 +72,10 @@ export default class AboutMe extends Vue {
           subtitle: `2020, dpunkt.verlag, <a href="https://dpunkt.de/produkt/graphql/">get it here</a>.`,
         },
         {
+          title: '<b>Maximizing Value with Kubernetes-as-a-Product</b> - Scaling the Mountain of Possibilities',
+          subtitle: `2023, VMBlog, <a href="https://vmblog.com/archive/2023/10/10/maximizing-value-with-kubernetes-as-a-product-scaling-the-mountain-of-possibilities.aspx">read it here</a>`,
+        },
+        {
           title: '<b>Einstieg in GitHub Actions</b> - 3 part tutorial series on CI/CD with GitHub Actions',
           subtitle: `Part 1, Einstieg in GitHub Actions: 2022, iX Ausgabe 7.2022, <a href="https://shop.heise.de/ix-07-2022/Print">get the magazine</a> 
                           or <a href="https://www.heise.de/ratgeber/Softwareentwicklung-Einstieg-in-GitHub-Actions-7148260.html">on heise+</a>.
@@ -105,6 +109,14 @@ export default class AboutMe extends Vue {
         { divider: true, inset: true },
         { header: "Events / Talks" },
         { divider: true, inset: true },
+        {
+          title: 'Infrastruktur als Produkt: Transparenter Wert selbst in komplexesten Umgebungen',
+          subtitle: `2024, Product Owner Days Cologne, <a href="https://product-owner-day.de/veranstaltung-21568-0-infrastruktur-als-produkt-transparenter-wert-selbst-in-komplexesten-umgebungen.html">find out more here</a>.`,
+        },
+        {
+          title: 'Product Journey Value Mapping: Paving the Way for Continuous Value Delivery',
+          subtitle: `2023, DLSummit Cologne, <a href="https://www.digitale-leute.de/summit/23/schedule/product-journey-value-mapping-paving-the-way-for-continuous-value-delivery/#start">find out more here</a>.`,
+        },
         {
           title: 'The Future of Cloud is Abstraction - Why Kubernetes is not the Endgame for STACKIT',
           subtitle: `2022, DevOpsCon Berlin, <a href="https://devopscon.io/cloud-platforms-serverless/the-future-of-cloud-is-abstraction-why-kubernetes-is-not-the-endgame-for-stackit/">find out more here</a>.

@@ -66,10 +66,14 @@ export default class AboutMe extends Vue {
    items = [
         { header: 'Practical Experience' },
         {
-          title: 'since 10/2022 <b>Product Owner for Cluster API on Azure</b>',
+          title: 'Since 10/2022 <b>Product Manager Kubernetes Platform</b>',
           subtitle: `<i>Giant Swarm GmbH</i>
-          <br>As Product Owner I am responsible for helping Giant Swarm become one of the best Platform Teams
-          with the best and most convenient Infrastructure Platform you can buy for money.`,
+          <br>My first mission in Giant Swarm was to extend the supported Infrastructure Providers for our Platform Product with the Azure Cloud. 
+          Afterwards I took over the responsibility to streamline our Kubernetes Platform and the cross provider apps and components to deliver 
+          the best possible experience for our internal and external users. To manage such a highly complex and abstract product that is strongly 
+          integrated to all other teams and make your roadmap, value and progress transparent for all stakeholders was quite a challenge. 
+          Besides that I had the chance to participate in and help shape many internal communities of practice around various topics like 
+          Product Management, Product Marketing, Revenue, Events and more.`,
         },
         {
           title: '02/2021 - 09/2022 <b>Technical Product Owner STACKIT AppCloud</b>',
@@ -152,30 +156,28 @@ export default class AboutMe extends Vue {
         { header: 'Other' },
         {
           title: 'Other Experiences include',
-          subtitle: `<ul>
-          <li>2019-2021 Culture- and Change Agent for Schwarz IT, actively supporting the company-wide organizational and cultural changes</li>
-          <li>2018-2019 Board Member of the IT Networking Club <a href="https://connect-it.hn/">connect.it Heilbronn</a></li>
-          <li>2015-2017 Head of the Students Representation of the Faculty IT at Heilbronn University</li>
-          <li>2019-2020 Lecturer for fundamentals of software engineering at Heilbronn University</li>
-          <li>2016-2019 Supporter in a “Start-Up Workshop” organized from Students for Students;
-          there I helped multiple IT Start-Ups understand agile tools, shape their (app-)ideas to
-          feasible products, scale from few founders with an idea to multiple teams and more.</li>
-          <li>Author of „<i>GraphQL – Eine Einführung in APIs mit GraphQL</i>“ - (ISDN: 978-3-86490-784-5)
-            <ul>
-              <li>Fundamentals book about APIs with GraphQL</li>
-              <li>Also followed by an 
-              <a href="https://www.heise.de/hintergrund/GraphQL-als-API-Gateway-Teil-1-Grundlagen-Theorie-Design-6049124.html">article series on heise.de</a> 
-              about GraphQL as an APIGateway</li>
-            </ul>
-          </li>
-          <li>Author of articles on heise, in the Java Magazin and more.</li>
-          <li>Love to actively participate, speak on and organize meetups and conferences
-            <ul>
-              <li>ie. Speaker on <a href="https://jax.de/speaker/dominik-kress/">WJAX2018</a>, 
-              <a href="https://devopscon.io/speaker/dominik-kress/">DevOpsCon2021</a>, etc.</li>
-              <li>Created the concept and organized <a href="https://www.hs-heilbronn.de/meetit">MeetIT Heilbronn</a> 
-              and Schwarz IT internal Developer Conference SITCon</li>
-          </ul></li></ul>`,
+          subtitle: `          
+          <ul>
+            <li> Love to actively contribute to the community
+              <ul>
+                <li>Speaker on conferences and MeetUps like <a href="https://jax.de/speaker/dominik-kress/">WJAX 2018</a>, 
+                  <a href="https://devopscon.io/speaker/dominik-kress/">DevOpsCon 2021 and 2022</a>, 
+                  <a href="https://www.youtube.com/watch?v=5Lp5CPG4GlA">WeAreDevelopers 2022</a>, 
+                  <a href="https://www.digitale-leute.de/summit/23/schedule/product-journey-value-mapping-paving-the-way-for-continuous-value-delivery/#start">Digitale Leute Summit 2023</a>, 
+                  <a href="https://product-owner-day.de/veranstaltung-21568-0-infrastruktur-als-produkt-transparenter-wert-selbst-in-komplexesten-umgebungen.html">Product Owner Days 2024</a>, 
+                  and more</li>
+                <li>Wrote multiple Blog and Magazine Articles about various topics around Platforms, Cloud and APIs 
+                  and a book about <a href="https://dpunkt.de/produkt/graphql/">API Design with GraphQL (ISDN: 978-3-86490-784-5)</a></li>
+                <li>Actively contributing to the Cloud Native Computing Foundation, for example in the <a href="https://tag-app-delivery.cncf.io/wgs/platforms/">Platforms Working Group</a></li>
+                <li>Created the concept of and organised two conference formats with the <a href="https://www.hs-heilbronn.de/meetit">MeetIT Heilbronn</a> and Schwarz IT internal Developer Conference SITCon</li>
+              </ul>
+            </li>
+            <li>2019-2020 Lecturer for fundamentals of software engineering at Heilbronn University</li>
+            <li>2019-2021 Culture- and Change Agent for Schwarz IT, actively supporting the enterprise-wide organisational and cultural changes.</li>
+            <li>2018-2019 Board Member of the IT Networking Club connect.it Heilbronn</li>
+            <li>2015-2017 Head of the Students Representation of the Faculty IT at Heilbronn University</li>
+            <li>2016-2019 Supporter in a “Start-Up Workshop” organised by Students for Students; there I helped multiple IT Start-Ups understand agile tools, shape their (app-)ideas to feasible products, scale from few founders with an idea to multiple teams and more.</li>
+          </ul>`,
         },
 
       ]
