@@ -72,6 +72,10 @@ export default class AboutMe extends Vue {
           subtitle: `2020, dpunkt.verlag, <a href="https://dpunkt.de/produkt/graphql/">get it here</a>.`,
         },
         {
+          title: '<b>Telepresence als Tooltipp: Kubernetes-Applikation lokal entwickeln</b>',
+          subtitle: `2024, iX Magazin/heise+, <a href="https://www.heise.de/ratgeber/Telepresence-als-Tooltipp-Kubernetes-Applikation-lokal-entwickeln-9613303.html">read it here</a>`,
+        },
+        {
           title: '<b>Maximizing Value with Kubernetes-as-a-Product</b> - Scaling the Mountain of Possibilities',
           subtitle: `2023, VMBlog, <a href="https://vmblog.com/archive/2023/10/10/maximizing-value-with-kubernetes-as-a-product-scaling-the-mountain-of-possibilities.aspx">read it here</a>`,
         },
@@ -111,7 +115,8 @@ export default class AboutMe extends Vue {
         { divider: true, inset: true },
         {
           title: 'Infrastruktur als Produkt: Transparenter Wert selbst in komplexesten Umgebungen',
-          subtitle: `2024, Product Owner Days Cologne, <a href="https://product-owner-day.de/veranstaltung-21568-0-infrastruktur-als-produkt-transparenter-wert-selbst-in-komplexesten-umgebungen.html">find out more here</a>.`,
+          subtitle: `2024, Inside Agile Online Conference, <a href="https://asu.inside-agile.de/veranstaltung-21484-se-0-effektives-produktmanagement-in-technisch-anspruchsvollen-umgebungen-infrastruktur-als-produkt.html">find out more here</a>
+                    <br/>2024, Product Owner Days Cologne, <a href="https://product-owner-day.de/veranstaltung-21568-0-infrastruktur-als-produkt-transparenter-wert-selbst-in-komplexesten-umgebungen.html">find out more here</a>.`,
         },
         {
           title: 'Product Journey Value Mapping: Paving the Way for Continuous Value Delivery',
